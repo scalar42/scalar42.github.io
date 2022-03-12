@@ -1,10 +1,19 @@
 baseURL = 'https://scalar42.github.io/'
 languageCode = 'en-us'
 title = "Scalar42"
+paginate = 5
+
+copyright = "© Copyright 2022"
 
 theme = 'hugo-ink'
 
+# Enable syntax highlighting.
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [params]
+	subtitle = "I thought what I’d do was, I’d pretend I was one of those deaf-mutes."
 	featherIconsCDN = true
 	mode = "auto"
 
@@ -33,6 +42,11 @@ weight = 4
 name = "Github"
 icon = "github"
 url = "https://github.com/scalar42"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/scalar42"
 
 [[params.social]]
 name = "RSS"
